@@ -8,6 +8,7 @@
                 height: 150px;
                 width: 20%;
                 }
+
             .Headers{
                 color: darkred;
                 font-style: italic;
@@ -16,11 +17,14 @@
                 border-style: solid;
                 border-color: black;
                 border-width: 25%;
-
                 }
+
             .page{
                 text-align: center;
                 background-color: grey;
+                border-style: solid;
+                border-width: 15px;
+                border-color: darkred;
             }
             #elk{
                 width: 500px;
@@ -28,8 +32,8 @@
                 border-color: black;
                 border-style: ridge;
                 border-width: 20px;
-
             }
+
             .subheadings{
                 font-size: 35px;
                 font-style: bold/italic;
@@ -37,8 +41,8 @@
                 border-style: dashed;
                 border-width: thin;
                 border-color: darkred;
-
             }
+
             .lists{
                 font-size: 20px;
                 font-style: italic;
@@ -46,16 +50,38 @@
             #name{
                 font-size: 50px;
                 color: darkred;
+            }
 
+            .left {
+                float: left;
+                width: 45%;
+                top: 100px;
+            }
+
+            .right{
+                float: right;
+                width: 45%;
+                top: 100px;
+            }
+            .contact{
+                top: 200px;
+                text-align: center;
+                position: relative;
+                background-color: grey;
+                border-style: solid;
+                border-width: 15px;
+                border-color: darkred;
+                width: 100%;
             }
 
       </style>
+      
     </head>
 
     <div class="page">
     
     <body>
-        <div class="left">
+      
 
             <h1 class="Headers">My Biography: A Little About Me</h1>
 
@@ -68,38 +94,47 @@
                 alt="Collin's Favorite Animal">    
 
             <br>
-            <strong class="subheadings">A Few Quick Facts About Me</strong>
-                <ul class="lists">
-                    <li>I grew up in Washington State</li>
-                    <li>I enjoy activities such as hunting, fishing and hiking</li>
-                    <li>My favorite animal is an elk</li>
-                    <li>My favorite color is green</li>
+
+            <div class="left">
+                <strong class="subheadings">A Few Quick Facts About Me</strong>
+                    <ul class="lists">
+                        <li>I grew up in Washington State</li>
+                        <li>I enjoy activities such as hunting, fishing and hiking</li>
+                        <li>My favorite animal is an elk</li>
+                        <li>My favorite color is green</li>
         
                 </ul>
             <br>
-        </div>
+           
+            </div>
 
-        <div class="right">
-            <strong class="subheadings">A Brief Biography</strong>
+            <div class="right">
+                <strong class="subheadings">A Brief Biography</strong>
+                
+                <br>
+               
+                <p class="lists">As you know by now, my name is Collin Kier, I am from the
+                    great state of Washington and enjoy everything to do with the
+                    outdoors. I am taking a coding boot camp to improve my skills
+                    and learn how to get a job in the coding field. My ultimate goal
+                    is to move back to Washington and work somewhere in Seattle,
+                    as the market for coders is huge and ever-growing there. Thank you 
+                    for learning a little about me!
+                </p>
+
+                <br>
+            </div>
+
             <br>
-            <p class="lists">As you know by now, my name is Collin Kier, I am from the
-                great state of Washington and enjoy everything to do with the
-                outdoors. I am taking a coding boot camp to improve my skills
-                and learn how to get a job in the coding field. My ultimate goal
-                is to move back to Washington and work somewhere in Seattle,
-                as the market for coders is huge and ever-growing there. Thank you 
-                for learning a little about me!
-            </p>
 
-            <br>
-
-            <h3 class="subheadings">Contact Info</h3>
-            <ul class="lists">
-                <li>Email: <a href=mailto:collinkier@live.com>collinkier@live.com</a></li>
-                <li>Github: <a href="https://github.com/collinkier">Link To Github</a></li>
-                <li>Portfolio: <a href="#">Portfolio</a></li>
-            </ul>
-        </div>
+            <div class="contact">
+                <h3 class="subheadings">Contact Info</h3>
+                <ul class="lists">
+                    <p>Email: <a href=mailto:collinkier@live.com>collinkier@live.com</a></p>
+                    <p>Github: <a href="https://github.com/collinkier">Link To Github</a></p>
+                    <p>Portfolio: <a href="#">Portfolio</a></p>
+                </ul>
+            </div>
 
        
 
